@@ -1,0 +1,39 @@
+<li
+  class="form--selected-value--container work-package--attachments--draggable-item"
+  opFocusWithin=".inplace-editing--trigger-icon"
+  draggable="true"
+  data-qa-selector="op-attachment-list-item"
+  (dragstart)="setDragData($event)"
+  [title]="text.dragHint"
+>
+  <span class="form--selected-value">
+    <op-icon icon-classes="icon-context icon-attachment"></op-icon>
+    <a
+      class="work-package--attachments--filename"
+      target="_blank"
+      rel="noopener"
+      [attr.href]="downloadPath || '#'">
+
+      {{ fileName }}
+
+      <op-authoring
+        class="work-package--attachments--info"
+        [createdOn]="attachment.createdAt"
+        [author]="author$ | async"
+        [showAuthorAsLink]="false"
+      ></op-authoring>
+    </a>
+  </span>
+  <a
+    href=""
+    class="form--selected-value--remover work-package--attachments--delete-button"
+    *ngIf="!!attachment._links.delete"
+    (click)="confirmRemoveAttachment($event)">
+    <op-icon
+      icon-classes="icon-delete"
+      [icon-title]="deleteIconTitle"
+    ></op-icon>
+  </a>
+
+  <input type="hidden" name="attachments[{{index}}][id]" value="{{attachment.id}}">
+</li>

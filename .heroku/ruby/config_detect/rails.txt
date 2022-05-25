@@ -1,0 +1,206 @@
+/tmp/d20220517-60-1doj59e/opt/openproject/vendor/bundle/ruby/3.0.0/gems/activerecord-6.1.5.1/lib/active_record/migration.rb:625:in `check_pending!':  (ActiveRecord::PendingMigrationError)
+
+Migrations are pending. To resolve this issue, run:
+
+        bin/rails db:migrate RAILS_ENV=production
+
+You have 145 pending migrations:
+
+10000000000000_to_v710_aggregated_migrations.rb
+20100528100562_aggregated_global_roles_migrations.rb
+20170703075208_add_attribute_help_texts.rb
+20170705134348_remove_attribute_visibility.rb
+20170818063404_add_timeline_labels_to_query.rb
+20170829095701_generate_wp_closure.rb
+20171106074835_move_hashed_token_to_core.rb
+20171129145631_add_fulltext_to_attachments.rb
+20180105130053_rebuild_dag.rb
+20180108132929_vacuum_relations.rb
+20180116065518_add_hierarchy_paths.rb
+20180117065255_remove_timelines_and_reportings.rb
+20180122135443_add_tsv_columns_to_attachments.rb
+20180123092002_add_custom_actions.rb
+20180213155320_add_description_to_custom_actions.rb
+20180221151038_add_position_to_custom_action.rb
+20180305130811_remove_wiki_content_versions.rb
+20180419061910_timestamp_for_caching.rb
+20180504144320_add_color_to_statuses_and_enumerations.rb
+20180510184732_rename_planning_elemnt_type_colors_to_colors.rb
+20180518130559_add_timestamps_to_wiki.rb
+20180524084654_remove_non_null_container_on_attachments.rb
+20180524113516_add_consent_timestamp_to_user.rb
+20180706150714_convert_to_markdown.rb
+20180717102331_remove_in_aggregation_from_type.rb
+20180801072018_remove_responsible_and_type_from_project.rb
+20180830120550_migrate_light_background_themes.rb
+20180903110212_add_highlighting_to_query.rb
+20180924141838_add_highlighted_attributes_to_query.rb
+20181101132712_add_read_only_to_statuses.rb
+20181112125034_create_doorkeeper_tables.rb
+20181118193730_create_grid.rb
+20181121174153_create_ordered_work_packages.rb
+20190124081710_remove_accessibility_mode.rb
+20190129083842_add_project_to_grid.rb
+20190205090102_add_options_to_grid.rb
+20190207155607_add_hidden_to_queries.rb
+20190220080647_migrate_my_page_layout.rb
+20190227163226_add_tls_mode_to_auth_sources.rb
+20190301122554_remove_hierarchy_paths.rb
+20190312083304_rename_boards_to_forums.rb
+20190411122815_set_timeline_auto_zoom.rb
+20190502102512_ensure_postgres_index_names.rb
+20190507132517_add_board_view_to_roles.rb
+20190509071101_add_default_description_to_types.rb
+20190527095959_set_manage_board_permission.rb
+20190603060951_set_assign_versions_permission.rb
+20190618115620_fix_available_languages.rb
+20190619143049_add_timestamps_to_query.rb
+20190710132957_rename_my_page_widgets.rb
+20190716071941_add_display_representation_to_query.rb
+20190722082648_add_derived_estimated_hours_to_work_packages.rb
+20190724093332_add_journal_versions_table.rb
+20190920102446_clean_custom_values.rb
+20190923111902_add_project_status_reporting.rb
+20190923123858_simplify_project_active_and_timestamp.rb
+20191106132533_make_system_user_active.rb
+20191112111040_fix_system_user_status.rb
+20191115141154_add_content_orientation_to_custom_fields.rb
+20191216135213_join_table_for_active_activities.rb
+20200114091135_add_theme_name_to_custom_styles.rb
+20200115090742_fix_parent_id_for_wiki_pages.rb
+20200206101135_add_theme_logo_to_custom_style.rb
+20200217061622_add_timestamp_to_news.rb
+20200217155632_rename_tokens.rb
+20200220171133_rename_bim_module.rb
+20200302100431_fix_attachable_journals.rb
+20200310092237_add_timestamps_to_bcf.rb
+20200325101528_strip_whitespace_from_user_attributes.rb
+20200326102408_rename_fixed_version.rb
+20200403105252_add_cron_to_delayed_jobs.rb
+20200415131633_add_work_package_exports.rb
+20200427121606_add_filter_to_ldap.rb
+20200428105404_unique_member_role.rb
+20200504085933_add_schedule_manually_to_work_packages.rb
+20200522131255_splash_multi_list_customizable_journals.rb
+20200522140244_remove_journal_versions_table.rb
+20200527130633_add_templated_to_project.rb
+20200625133727_fix_inherited_group_member_roles.rb
+20200708065116_fix_members_inconsistencies.rb
+20200803081038_journalize_scheduling_mode.rb
+20200820140526_remove_summable_setting.rb
+20200903064009_enable_current_project_custom_fields_columns.rb
+20200907090753_change_attachment_filesize_to_big_int.rb
+20200914092212_set_current_timestamp_defaults_for_bcf_viewpoints_and_issues.rb
+20200924085508_cleanup_orphaned_journal_data.rb
+20200925084550_members_allow_null_on_project.rb
+20201001184404_rename_timestamp_on_time_and_cost_entry.rb
+20201005120137_ensure_integer_for_relations_foreign_keys.rb
+20201005184411_rename_timestamps.rb
+20201125121949_remove_renamed_cron_job.rb
+20210126112238_add_uniqueness_constrain_on_lastname_for_groups_and_placeholder_users.rb
+20210127134438_alter_user_attributes_max_length.rb
+20210214205545_replace_invalid_principal_references.rb
+20210221230446_add_group_user_primary_key.rb
+20210310101840_generalize_exports.rb
+20210331085058_migrate_sessions_unlogged.rb
+20210427065703_make_system_user_admin.rb
+20210510193438_remove_project_setting.rb
+20210512121322_make_project_identifier_unique.rb
+20210519141244_remove_reply_from_message_journalizing.rb
+20210615150558_aggregate_journals.rb
+20210616145324_polymorphic_journal_data.rb
+20210616191052_create_notifications.rb
+20210618125430_authors_as_watchers.rb
+20210618132206_add_notification_settings.rb
+20210628185054_extend_custom_field_name_length.rb
+20210701073944_add_digest_setting.rb
+20210701082511_add_digest_to_notification.rb
+20210713081724_flip_bcf_viewpoint_clipping_direction_selectively.rb
+20210726070813_remove_journal_versions.rb
+20210802114054_add_notification_setting_options.rb
+20210825183540_make_user_preferences_json.rb
+20210902201126_cleanup_user_preferences.rb
+20210910092414_add_bcf_comment_hierarchy.rb
+20210914065555_cleanup_notifications.rb
+20210915154656_add_user_preference_settings_indices.rb
+20210917190141_non_work_package_notification_settings.rb
+20210922123908_notification_foreign_key_constraint.rb
+20210928133538_add_reminder_workdays.rb
+20211005080304_tzinfo_time_zones.rb
+20211005135637_remove_invalid_group_users.rb
+20211022143726_remove_snapshot_data.rb
+20211026061420_add_indexes_for_email_reminder_pause.rb
+20211101152840_redistribute_edit_project_permission.rb
+20211102161932_remove_custom_field_types.rb
+20211103120946_clean_emails_footer.rb
+20211104151329_default_notification_setting.rb
+20211105142202_queue_notification_update_mail.rb
+20211117195121_remove_destroyed_help_texts.rb
+20211118203332_clean_hide_mail.rb
+20211130161501_add_views.rb
+20211209092519_query_views.rb
+20220106145037_fix_missing_notification_settings.rb
+20220113144323_create_storage.rb
+20220113144759_create_file_links.rb
+20220121090847_create_projects_storages.rb
+20220202140507_reorder_project_children.rb
+20220223095355_projects_lft_rgt_index.rb
+20220302123642_assignable_to_permission.rb
+20220323083000_add_include_subprojects_to_query.rb
+20220408080838_bigint_primary_key_on_relations.rb
+20220414085531_migrate_team_planner_permissions.rb
+20220426132637_refix_inherited_group_member_roles.rb
+20220428071221_restore_defaults_on_empty_settings.rb
+
+
+	from /tmp/d20220517-60-1doj59e/opt/openproject/config/initializers/06-pending_migrations_check.rb:34:in `<top (required)>'
+	from /tmp/d20220517-60-1doj59e/opt/openproject/vendor/bundle/ruby/3.0.0/gems/activesupport-6.1.5.1/lib/active_support/dependencies.rb:326:in `load'
+	from /tmp/d20220517-60-1doj59e/opt/openproject/vendor/bundle/ruby/3.0.0/gems/activesupport-6.1.5.1/lib/active_support/dependencies.rb:326:in `block in load'
+	from /tmp/d20220517-60-1doj59e/opt/openproject/vendor/bundle/ruby/3.0.0/gems/activesupport-6.1.5.1/lib/active_support/dependencies.rb:299:in `load_dependency'
+	from /tmp/d20220517-60-1doj59e/opt/openproject/vendor/bundle/ruby/3.0.0/gems/activesupport-6.1.5.1/lib/active_support/dependencies.rb:326:in `load'
+	from /tmp/d20220517-60-1doj59e/opt/openproject/vendor/bundle/ruby/3.0.0/gems/railties-6.1.5.1/lib/rails/engine.rb:681:in `block in load_config_initializer'
+	from /tmp/d20220517-60-1doj59e/opt/openproject/vendor/bundle/ruby/3.0.0/gems/activesupport-6.1.5.1/lib/active_support/notifications.rb:205:in `instrument'
+	from /tmp/d20220517-60-1doj59e/opt/openproject/vendor/bundle/ruby/3.0.0/gems/railties-6.1.5.1/lib/rails/engine.rb:680:in `load_config_initializer'
+	from /tmp/d20220517-60-1doj59e/opt/openproject/vendor/bundle/ruby/3.0.0/gems/railties-6.1.5.1/lib/rails/engine.rb:634:in `block (2 levels) in <class:Engine>'
+	from /tmp/d20220517-60-1doj59e/opt/openproject/vendor/bundle/ruby/3.0.0/gems/railties-6.1.5.1/lib/rails/engine.rb:633:in `each'
+	from /tmp/d20220517-60-1doj59e/opt/openproject/vendor/bundle/ruby/3.0.0/gems/railties-6.1.5.1/lib/rails/engine.rb:633:in `block in <class:Engine>'
+	from /tmp/d20220517-60-1doj59e/opt/openproject/vendor/bundle/ruby/3.0.0/gems/railties-6.1.5.1/lib/rails/initializable.rb:32:in `instance_exec'
+	from /tmp/d20220517-60-1doj59e/opt/openproject/vendor/bundle/ruby/3.0.0/gems/railties-6.1.5.1/lib/rails/initializable.rb:32:in `run'
+	from /tmp/d20220517-60-1doj59e/opt/openproject/vendor/bundle/ruby/3.0.0/gems/railties-6.1.5.1/lib/rails/initializable.rb:61:in `block in run_initializers'
+	from /tmp/d20220517-60-1doj59e/opt/openproject/vendor/ruby-3.0.4/lib/ruby/3.0.0/tsort.rb:228:in `block in tsort_each'
+	from /tmp/d20220517-60-1doj59e/opt/openproject/vendor/ruby-3.0.4/lib/ruby/3.0.0/tsort.rb:350:in `block (2 levels) in each_strongly_connected_component'
+	from /tmp/d20220517-60-1doj59e/opt/openproject/vendor/ruby-3.0.4/lib/ruby/3.0.0/tsort.rb:422:in `block (2 levels) in each_strongly_connected_component_from'
+	from /tmp/d20220517-60-1doj59e/opt/openproject/vendor/ruby-3.0.4/lib/ruby/3.0.0/tsort.rb:431:in `each_strongly_connected_component_from'
+	from /tmp/d20220517-60-1doj59e/opt/openproject/vendor/ruby-3.0.4/lib/ruby/3.0.0/tsort.rb:421:in `block in each_strongly_connected_component_from'
+	from /tmp/d20220517-60-1doj59e/opt/openproject/vendor/bundle/ruby/3.0.0/gems/railties-6.1.5.1/lib/rails/initializable.rb:50:in `each'
+	from /tmp/d20220517-60-1doj59e/opt/openproject/vendor/bundle/ruby/3.0.0/gems/railties-6.1.5.1/lib/rails/initializable.rb:50:in `tsort_each_child'
+	from /tmp/d20220517-60-1doj59e/opt/openproject/vendor/ruby-3.0.4/lib/ruby/3.0.0/tsort.rb:415:in `call'
+	from /tmp/d20220517-60-1doj59e/opt/openproject/vendor/ruby-3.0.4/lib/ruby/3.0.0/tsort.rb:415:in `each_strongly_connected_component_from'
+	from /tmp/d20220517-60-1doj59e/opt/openproject/vendor/ruby-3.0.4/lib/ruby/3.0.0/tsort.rb:349:in `block in each_strongly_connected_component'
+	from /tmp/d20220517-60-1doj59e/opt/openproject/vendor/ruby-3.0.4/lib/ruby/3.0.0/tsort.rb:347:in `each'
+	from /tmp/d20220517-60-1doj59e/opt/openproject/vendor/ruby-3.0.4/lib/ruby/3.0.0/tsort.rb:347:in `call'
+	from /tmp/d20220517-60-1doj59e/opt/openproject/vendor/ruby-3.0.4/lib/ruby/3.0.0/tsort.rb:347:in `each_strongly_connected_component'
+	from /tmp/d20220517-60-1doj59e/opt/openproject/vendor/ruby-3.0.4/lib/ruby/3.0.0/tsort.rb:226:in `tsort_each'
+	from /tmp/d20220517-60-1doj59e/opt/openproject/vendor/ruby-3.0.4/lib/ruby/3.0.0/tsort.rb:205:in `tsort_each'
+	from /tmp/d20220517-60-1doj59e/opt/openproject/vendor/bundle/ruby/3.0.0/gems/railties-6.1.5.1/lib/rails/initializable.rb:60:in `run_initializers'
+	from /tmp/d20220517-60-1doj59e/opt/openproject/vendor/bundle/ruby/3.0.0/gems/railties-6.1.5.1/lib/rails/application.rb:391:in `initialize!'
+	from /tmp/d20220517-60-1doj59e/opt/openproject/vendor/bundle/ruby/3.0.0/gems/railties-6.1.5.1/lib/rails/railtie.rb:207:in `public_send'
+	from /tmp/d20220517-60-1doj59e/opt/openproject/vendor/bundle/ruby/3.0.0/gems/railties-6.1.5.1/lib/rails/railtie.rb:207:in `method_missing'
+	from /tmp/d20220517-60-1doj59e/opt/openproject/config/environment.rb:32:in `<top (required)>'
+	from /tmp/d20220517-60-1doj59e/opt/openproject/vendor/bundle/ruby/3.0.0/gems/zeitwerk-2.5.4/lib/zeitwerk/kernel.rb:35:in `require'
+	from /tmp/d20220517-60-1doj59e/opt/openproject/vendor/bundle/ruby/3.0.0/gems/zeitwerk-2.5.4/lib/zeitwerk/kernel.rb:35:in `require'
+	from /tmp/d20220517-60-1doj59e/opt/openproject/vendor/bundle/ruby/3.0.0/gems/activesupport-6.1.5.1/lib/active_support/dependencies.rb:332:in `block in require'
+	from /tmp/d20220517-60-1doj59e/opt/openproject/vendor/bundle/ruby/3.0.0/gems/activesupport-6.1.5.1/lib/active_support/dependencies.rb:299:in `load_dependency'
+	from /tmp/d20220517-60-1doj59e/opt/openproject/vendor/bundle/ruby/3.0.0/gems/activesupport-6.1.5.1/lib/active_support/dependencies.rb:332:in `require'
+	from /tmp/d20220517-60-1doj59e/opt/openproject/vendor/bundle/ruby/3.0.0/gems/railties-6.1.5.1/lib/rails/application.rb:367:in `require_environment!'
+	from /tmp/d20220517-60-1doj59e/opt/openproject/vendor/bundle/ruby/3.0.0/gems/railties-6.1.5.1/lib/rails/command/actions.rb:28:in `require_environment!'
+	from /tmp/d20220517-60-1doj59e/opt/openproject/vendor/bundle/ruby/3.0.0/gems/railties-6.1.5.1/lib/rails/command/actions.rb:15:in `require_application_and_environment!'
+	from /tmp/d20220517-60-1doj59e/opt/openproject/vendor/bundle/ruby/3.0.0/gems/railties-6.1.5.1/lib/rails/commands/runner/runner_command.rb:33:in `perform'
+	from /tmp/d20220517-60-1doj59e/opt/openproject/vendor/bundle/ruby/3.0.0/gems/thor-1.2.1/lib/thor/command.rb:27:in `run'
+	from /tmp/d20220517-60-1doj59e/opt/openproject/vendor/bundle/ruby/3.0.0/gems/thor-1.2.1/lib/thor/invocation.rb:127:in `invoke_command'
+	from /tmp/d20220517-60-1doj59e/opt/openproject/vendor/bundle/ruby/3.0.0/gems/thor-1.2.1/lib/thor.rb:392:in `dispatch'
+	from /tmp/d20220517-60-1doj59e/opt/openproject/vendor/bundle/ruby/3.0.0/gems/railties-6.1.5.1/lib/rails/command/base.rb:69:in `perform'
+	from /tmp/d20220517-60-1doj59e/opt/openproject/vendor/bundle/ruby/3.0.0/gems/railties-6.1.5.1/lib/rails/command.rb:48:in `invoke'
+	from /tmp/d20220517-60-1doj59e/opt/openproject/vendor/bundle/ruby/3.0.0/gems/railties-6.1.5.1/lib/rails/commands.rb:18:in `<top (required)>'
+	from bin/rails:9:in `require'
+	from bin/rails:9:in `<main>'

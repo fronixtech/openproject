@@ -1,0 +1,2 @@
+(self.webpackChunkopenproject_frontend=self.webpackChunkopenproject_frontend||[]).push([["src_vendor_ckeditor_translations_ms_js"],{20624:()=>{!function(o){const n=o.ms=o.ms||{};n.dictionary=Object.assign(n.dictionary||{},{"Cannot upload file:":"Gagal memuat naik fail"}),n.getPluralForm=function(e){return 0}}(window.CKEDITOR_TRANSLATIONS||(window.CKEDITOR_TRANSLATIONS={}))}}]);
+//# sourceMappingURL=src_vendor_ckeditor_translations_ms_js.efce257a387c112b00ba.js.map

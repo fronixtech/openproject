@@ -1,0 +1,9 @@
+export LANG=${LANG:-en_US.UTF-8}
+export GEM_PATH="$HOME/vendor/bundle/ruby/3.0.0:$GEM_PATH"
+export PATH="bin:$HOME/vendor/bundle/bin:$HOME/vendor/bundle/ruby/3.0.0/bin:$PATH"
+export MALLOC_ARENA_MAX=${MALLOC_ARENA_MAX:-2}
+export RAILS_ENV=${RAILS_ENV:-production}
+export RACK_ENV=${RACK_ENV:-production}
+export SECRET_KEY_BASE=${SECRET_KEY_BASE:-7fdc28813d080636329cb3a9eea6648c4ad20cc031cdeb33906cb1240a3c468c504aa0d66ebefb04ccdec828fe4fe35e2a9791badb81ef8ad9bba7cc6aea3da2}
+export RAILS_SERVE_STATIC_FILES=${RAILS_SERVE_STATIC_FILES:-enabled}
+export RAILS_LOG_TO_STDOUT=${RAILS_LOG_TO_STDOUT:-enabled}

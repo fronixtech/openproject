@@ -1,0 +1,15 @@
+current directory: /tmp/d20211214-57-e03iy4/opt/openproject/vendor/bundle/ruby/2.7.0/gems/bootsnap-1.9.1/ext/bootsnap
+/tmp/d20211214-57-e03iy4/opt/openproject/vendor/ruby-2.7.5/bin/ruby -I /tmp/d20211214-57-e03iy4/opt/openproject/vendor/ruby-2.7.5/lib/ruby/2.7.0 -r ./siteconf20211214-1514-1yv5i9x.rb extconf.rb
+creating Makefile
+
+current directory: /tmp/d20211214-57-e03iy4/opt/openproject/vendor/bundle/ruby/2.7.0/gems/bootsnap-1.9.1/ext/bootsnap
+make "DESTDIR=" clean
+
+current directory: /tmp/d20211214-57-e03iy4/opt/openproject/vendor/bundle/ruby/2.7.0/gems/bootsnap-1.9.1/ext/bootsnap
+make "DESTDIR="
+compiling bootsnap.c
+linking shared-object bootsnap/bootsnap.so
+
+current directory: /tmp/d20211214-57-e03iy4/opt/openproject/vendor/bundle/ruby/2.7.0/gems/bootsnap-1.9.1/ext/bootsnap
+make "DESTDIR=" install
+/usr/bin/install -c -m 0755 bootsnap.so ./.gem.20211214-1514-jl4on0/bootsnap

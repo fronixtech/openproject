@@ -1,0 +1,18 @@
+# pack-refs with: peeled fully-peeled sorted 
+e1173e682a60010c018146443453560a13b01a90 refs/heads/dev
+442a83a0072737b6c8a9a255042cf1724d25921a refs/heads/feature/client_auth_method_option
+6957555c93f1d7bc3a1aa99eeb54cdcc55a7d7ea refs/heads/feature/code_failure
+c3bce4c9e9ac5412b36b00f80a44e3f1f7817222 refs/heads/feature/rails
+281b8c5d9ea062e08b64d7d842b27e24e15a6ba2 refs/heads/feature/send_nonce_option
+51e9329a3fa01bca015a979fd8739fcc8dc5c8ae refs/heads/feature/state
+30b89f608ed505647deee92734ed27d41954bd77 refs/heads/google
+0af00bb68b7332fc94818f8fb98edba93402b107 refs/tags/0.0.1
+d71f125d7b4d32ae6c223b0988f9d408016aac23 refs/tags/0.0.2
+2b6d729c155e607d2d3ddbfa67a3f617d805ce74 refs/tags/sprint/2014_08
+2b6d729c155e607d2d3ddbfa67a3f617d805ce74 refs/tags/sprint/2014_09
+2b6d729c155e607d2d3ddbfa67a3f617d805ce74 refs/tags/sprint/2014_10
+2b6d729c155e607d2d3ddbfa67a3f617d805ce74 refs/tags/sprint/2014_12
+2b6d729c155e607d2d3ddbfa67a3f617d805ce74 refs/tags/sprint/2014_13
+c3bce4c9e9ac5412b36b00f80a44e3f1f7817222 refs/tags/sprint/2014_16
+109570739508feef40932a1adccf55ee5d28da0f refs/tags/v0.2.1
+42c4bd27aaab986e0d8723da50314135691a0955 refs/tags/v0.3.0

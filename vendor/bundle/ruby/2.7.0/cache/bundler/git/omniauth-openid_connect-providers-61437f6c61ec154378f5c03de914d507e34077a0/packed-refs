@@ -1,0 +1,6 @@
+# pack-refs with: peeled fully-peeled sorted 
+a6c0c3ed78fac79cf4d007e40d4029e524ec7751 refs/heads/dev
+4666dc4b831e295d1baae42d6d64c400d2514c00 refs/heads/feature/rails4
+4666dc4b831e295d1baae42d6d64c400d2514c00 refs/tags/sprint/2014_08
+4666dc4b831e295d1baae42d6d64c400d2514c00 refs/tags/sprint/2014_16
+a6c0c3ed78fac79cf4d007e40d4029e524ec7751 refs/tags/v0.2.0

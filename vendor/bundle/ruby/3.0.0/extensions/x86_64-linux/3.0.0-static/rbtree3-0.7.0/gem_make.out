@@ -1,0 +1,104 @@
+current directory: /tmp/d20220503-59-13g6aae/opt/openproject/vendor/bundle/ruby/3.0.0/gems/rbtree3-0.7.0
+/tmp/d20220503-59-13g6aae/opt/openproject/vendor/ruby-3.0.4/bin/ruby -I /tmp/d20220503-59-13g6aae/opt/openproject/vendor/ruby-3.0.4/lib/ruby/3.0.0 -r ./siteconf20220503-1560-bjuc9y.rb extconf.rb
+checking for rb_exec_recursive() in ruby.h... yes
+creating Makefile
+
+current directory: /tmp/d20220503-59-13g6aae/opt/openproject/vendor/bundle/ruby/3.0.0/gems/rbtree3-0.7.0
+make DESTDIR\= clean
+
+current directory: /tmp/d20220503-59-13g6aae/opt/openproject/vendor/bundle/ruby/3.0.0/gems/rbtree3-0.7.0
+make DESTDIR\=
+compiling dict.c
+compiling rbtree.c
+In file included from /tmp/d20220503-59-13g6aae/opt/openproject/vendor/ruby-3.0.4/include/ruby-3.0.0/ruby/internal/assume.h:29,
+                 from /tmp/d20220503-59-13g6aae/opt/openproject/vendor/ruby-3.0.4/include/ruby-3.0.0/ruby/backward/2/assume.h:24,
+                 from /tmp/d20220503-59-13g6aae/opt/openproject/vendor/ruby-3.0.4/include/ruby-3.0.0/ruby/defines.h:72,
+                 from /tmp/d20220503-59-13g6aae/opt/openproject/vendor/ruby-3.0.4/include/ruby-3.0.0/ruby/ruby.h:23,
+                 from /tmp/d20220503-59-13g6aae/opt/openproject/vendor/ruby-3.0.4/include/ruby-3.0.0/ruby.h:38,
+                 from rbtree.c:5:
+rbtree.c: In function ‘rbtree_cmp’:
+rbtree.c:125:14: warning: passing argument 1 of ‘rb_type’ makes integer from pointer without a cast [-Wint-conversion]
+  125 |     if (TYPE(key1) == T_STRING && TYPE(key2) == T_STRING)
+      |              ^~~~
+      |              |
+      |              const void *
+/tmp/d20220503-59-13g6aae/opt/openproject/vendor/ruby-3.0.4/include/ruby-3.0.0/ruby/internal/cast.h:33:29: note: in definition of macro ‘RBIMPL_CAST’
+   33 | # define RBIMPL_CAST(expr) (expr)
+      |                             ^~~~
+rbtree.c:125:9: note: in expansion of macro ‘TYPE’
+  125 |     if (TYPE(key1) == T_STRING && TYPE(key2) == T_STRING)
+      |         ^~~~
+In file included from /tmp/d20220503-59-13g6aae/opt/openproject/vendor/ruby-3.0.4/include/ruby-3.0.0/ruby/internal/fl_type.h:35,
+                 from /tmp/d20220503-59-13g6aae/opt/openproject/vendor/ruby-3.0.4/include/ruby-3.0.0/ruby/internal/core/rstring.h:30,
+                 from /tmp/d20220503-59-13g6aae/opt/openproject/vendor/ruby-3.0.4/include/ruby-3.0.0/ruby/internal/arithmetic/char.h:29,
+                 from /tmp/d20220503-59-13g6aae/opt/openproject/vendor/ruby-3.0.4/include/ruby-3.0.0/ruby/internal/arithmetic.h:23,
+                 from /tmp/d20220503-59-13g6aae/opt/openproject/vendor/ruby-3.0.4/include/ruby-3.0.0/ruby/ruby.h:25,
+                 from /tmp/d20220503-59-13g6aae/opt/openproject/vendor/ruby-3.0.4/include/ruby-3.0.0/ruby.h:38,
+                 from rbtree.c:5:
+/tmp/d20220503-59-13g6aae/opt/openproject/vendor/ruby-3.0.4/include/ruby-3.0.0/ruby/internal/value_type.h:178:15: note: expected ‘VALUE’ {aka ‘long unsigned int’} but argument is of type ‘const void *’
+  178 | rb_type(VALUE obj)
+      |         ~~~~~~^~~
+In file included from /tmp/d20220503-59-13g6aae/opt/openproject/vendor/ruby-3.0.4/include/ruby-3.0.0/ruby/internal/assume.h:29,
+                 from /tmp/d20220503-59-13g6aae/opt/openproject/vendor/ruby-3.0.4/include/ruby-3.0.0/ruby/backward/2/assume.h:24,
+                 from /tmp/d20220503-59-13g6aae/opt/openproject/vendor/ruby-3.0.4/include/ruby-3.0.0/ruby/defines.h:72,
+                 from /tmp/d20220503-59-13g6aae/opt/openproject/vendor/ruby-3.0.4/include/ruby-3.0.0/ruby/ruby.h:23,
+                 from /tmp/d20220503-59-13g6aae/opt/openproject/vendor/ruby-3.0.4/include/ruby-3.0.0/ruby.h:38,
+                 from rbtree.c:5:
+rbtree.c:125:40: warning: passing argument 1 of ‘rb_type’ makes integer from pointer without a cast [-Wint-conversion]
+  125 |     if (TYPE(key1) == T_STRING && TYPE(key2) == T_STRING)
+      |                                        ^~~~
+      |                                        |
+      |                                        const void *
+/tmp/d20220503-59-13g6aae/opt/openproject/vendor/ruby-3.0.4/include/ruby-3.0.0/ruby/internal/cast.h:33:29: note: in definition of macro ‘RBIMPL_CAST’
+   33 | # define RBIMPL_CAST(expr) (expr)
+      |                             ^~~~
+rbtree.c:125:35: note: in expansion of macro ‘TYPE’
+  125 |     if (TYPE(key1) == T_STRING && TYPE(key2) == T_STRING)
+      |                                   ^~~~
+In file included from /tmp/d20220503-59-13g6aae/opt/openproject/vendor/ruby-3.0.4/include/ruby-3.0.0/ruby/internal/fl_type.h:35,
+                 from /tmp/d20220503-59-13g6aae/opt/openproject/vendor/ruby-3.0.4/include/ruby-3.0.0/ruby/internal/core/rstring.h:30,
+                 from /tmp/d20220503-59-13g6aae/opt/openproject/vendor/ruby-3.0.4/include/ruby-3.0.0/ruby/internal/arithmetic/char.h:29,
+                 from /tmp/d20220503-59-13g6aae/opt/openproject/vendor/ruby-3.0.4/include/ruby-3.0.0/ruby/internal/arithmetic.h:23,
+                 from /tmp/d20220503-59-13g6aae/opt/openproject/vendor/ruby-3.0.4/include/ruby-3.0.0/ruby/ruby.h:25,
+                 from /tmp/d20220503-59-13g6aae/opt/openproject/vendor/ruby-3.0.4/include/ruby-3.0.0/ruby.h:38,
+                 from rbtree.c:5:
+/tmp/d20220503-59-13g6aae/opt/openproject/vendor/ruby-3.0.4/include/ruby-3.0.0/ruby/internal/value_type.h:178:15: note: expected ‘VALUE’ {aka ‘long unsigned int’} but argument is of type ‘const void *’
+  178 | rb_type(VALUE obj)
+      |         ~~~~~~^~~
+In file included from /tmp/d20220503-59-13g6aae/opt/openproject/vendor/ruby-3.0.4/include/ruby-3.0.0/ruby/internal/assume.h:29,
+                 from /tmp/d20220503-59-13g6aae/opt/openproject/vendor/ruby-3.0.4/include/ruby-3.0.0/ruby/backward/2/assume.h:24,
+                 from /tmp/d20220503-59-13g6aae/opt/openproject/vendor/ruby-3.0.4/include/ruby-3.0.0/ruby/defines.h:72,
+                 from /tmp/d20220503-59-13g6aae/opt/openproject/vendor/ruby-3.0.4/include/ruby-3.0.0/ruby/ruby.h:23,
+                 from /tmp/d20220503-59-13g6aae/opt/openproject/vendor/ruby-3.0.4/include/ruby-3.0.0/ruby.h:38,
+                 from rbtree.c:5:
+rbtree.c: In function ‘insert_node_ensure’:
+rbtree.c:304:21: warning: passing argument 1 of ‘rb_type’ makes integer from pointer without a cast [-Wint-conversion]
+  304 |         if (TYPE(arg->key) == T_STRING)
+      |                  ~~~^~~~~
+      |                     |
+      |                     const void *
+/tmp/d20220503-59-13g6aae/opt/openproject/vendor/ruby-3.0.4/include/ruby-3.0.0/ruby/internal/cast.h:33:29: note: in definition of macro ‘RBIMPL_CAST’
+   33 | # define RBIMPL_CAST(expr) (expr)
+      |                             ^~~~
+rbtree.c:304:13: note: in expansion of macro ‘TYPE’
+  304 |         if (TYPE(arg->key) == T_STRING)
+      |             ^~~~
+In file included from /tmp/d20220503-59-13g6aae/opt/openproject/vendor/ruby-3.0.4/include/ruby-3.0.0/ruby/internal/fl_type.h:35,
+                 from /tmp/d20220503-59-13g6aae/opt/openproject/vendor/ruby-3.0.4/include/ruby-3.0.0/ruby/internal/core/rstring.h:30,
+                 from /tmp/d20220503-59-13g6aae/opt/openproject/vendor/ruby-3.0.4/include/ruby-3.0.0/ruby/internal/arithmetic/char.h:29,
+                 from /tmp/d20220503-59-13g6aae/opt/openproject/vendor/ruby-3.0.4/include/ruby-3.0.0/ruby/internal/arithmetic.h:23,
+                 from /tmp/d20220503-59-13g6aae/opt/openproject/vendor/ruby-3.0.4/include/ruby-3.0.0/ruby/ruby.h:25,
+                 from /tmp/d20220503-59-13g6aae/opt/openproject/vendor/ruby-3.0.4/include/ruby-3.0.0/ruby.h:38,
+                 from rbtree.c:5:
+/tmp/d20220503-59-13g6aae/opt/openproject/vendor/ruby-3.0.4/include/ruby-3.0.0/ruby/internal/value_type.h:178:15: note: expected ‘VALUE’ {aka ‘long unsigned int’} but argument is of type ‘const void *’
+  178 | rb_type(VALUE obj)
+      |         ~~~~~~^~~
+rbtree.c: At top level:
+cc1: note: unrecognized command-line option ‘-Wno-self-assign’ may have been intended to silence earlier diagnostics
+cc1: note: unrecognized command-line option ‘-Wno-parentheses-equality’ may have been intended to silence earlier diagnostics
+cc1: note: unrecognized command-line option ‘-Wno-constant-logical-operand’ may have been intended to silence earlier diagnostics
+linking shared-object rbtree.so
+
+current directory: /tmp/d20220503-59-13g6aae/opt/openproject/vendor/bundle/ruby/3.0.0/gems/rbtree3-0.7.0
+make DESTDIR\= install
+/usr/bin/install -c -m 0755 rbtree.so ./.gem.20220503-1560-1zqbdj

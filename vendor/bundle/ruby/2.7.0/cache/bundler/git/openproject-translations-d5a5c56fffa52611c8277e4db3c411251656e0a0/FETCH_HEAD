@@ -1,0 +1,98 @@
+e12a9562a5a186e6b641ed35ebfc9046994a2b4f		branch 'dev' of https://github.com/opf/openproject-translations
+ee5614e7051a4473484baf789c62e5ebb8ad7fd4		branch 'release/4.2' of https://github.com/opf/openproject-translations
+7119f4e01d03110068569a5c0b1bccb84ff2810a		branch 'release/5.0' of https://github.com/opf/openproject-translations
+8c28fa724a8134d7d2f87bdc8d0640a6255586ae		branch 'release/6.0' of https://github.com/opf/openproject-translations
+7822a029455a9dfd7df87f3a66479c7bdc2ef80f		branch 'release/6.1' of https://github.com/opf/openproject-translations
+bc5c23516587a0f3c7536d421c33c001f4538383		branch 'release/7.0' of https://github.com/opf/openproject-translations
+7dff2a30046c48634f74efce298c21b4a571b096		branch 'release/7.1' of https://github.com/opf/openproject-translations
+5706711285a453f0528dd85f9d4f65c4fa7c4f5c		branch 'release/7.2' of https://github.com/opf/openproject-translations
+aabead0b1bf1b6c8be08821090d4bdfbaff1c7d6		branch 'release/7.3' of https://github.com/opf/openproject-translations
+c8ab7018e72917e9a4a6bae779064635ad646313		branch 'stable/5' of https://github.com/opf/openproject-translations
+7d52fa7fae2fac4ccdb24b261a600417193f7b15		branch 'stable/6' of https://github.com/opf/openproject-translations
+f9e63ef51dc9589e71a7152f10cdfffc3a9ba795		branch 'stable/7' of https://github.com/opf/openproject-translations
+52a08551cf5562f14b2eeadb31bcb64bafd303a2		branch 'translations-in-core' of https://github.com/opf/openproject-translations
+5e3558ca714c2e7e740229d94ba6d0777aaf42d1	not-for-merge	tag 'sprint/2015_02' of https://github.com/opf/openproject-translations
+1e3e0149913cfa6ccddbe3456d5c21004518899c	not-for-merge	tag 'sprint/2015_03' of https://github.com/opf/openproject-translations
+eb973f52efa55ae62d6f7c8a57870cfc01a4fe06	not-for-merge	tag 'sprint/2015_04' of https://github.com/opf/openproject-translations
+5647ec3095465d0da4f91f6ec1b05ffd769d7178	not-for-merge	tag 'v3.0.11' of https://github.com/opf/openproject-translations
+d97a2d99c2b48b8cad35bbebd9bc576161fd25bc	not-for-merge	tag 'v3.0.12' of https://github.com/opf/openproject-translations
+bb9b7abc9d9277d9045630eb22cf5e2688bd830f	not-for-merge	tag 'v3.0.13' of https://github.com/opf/openproject-translations
+b4e736a8f883f5d1b68188cd94d43b2de0ed12fe	not-for-merge	tag 'v3.0.16' of https://github.com/opf/openproject-translations
+b2868b2b51a31a46b1b4c96e4fee86139b9e5a6c	not-for-merge	tag 'v3.0.3' of https://github.com/opf/openproject-translations
+a8882304e3a4a5b81bd0b85c054e8907dc0a4d8a	not-for-merge	tag 'v3.0.4' of https://github.com/opf/openproject-translations
+21d912eb9713ff31a9908888cae9ed794c5c046b	not-for-merge	tag 'v3.0.8' of https://github.com/opf/openproject-translations
+64577188fe9641305d336cb1f5981bf5252ef97d	not-for-merge	tag 'v4.0.0' of https://github.com/opf/openproject-translations
+20aa8d185ae0bfee61b8109da3fa0e7333a5742d	not-for-merge	tag 'v4.0.1' of https://github.com/opf/openproject-translations
+180f8527184703d9515a3ced0edb94af51af25f9	not-for-merge	tag 'v4.0.10' of https://github.com/opf/openproject-translations
+56c02a1142f061cabb4cf7dae90c40d18cde0008	not-for-merge	tag 'v4.0.11' of https://github.com/opf/openproject-translations
+15b57966fb2719ab99c3f5f82314b79511efc6c9	not-for-merge	tag 'v4.0.12' of https://github.com/opf/openproject-translations
+1c238044564711a17e15f336164bebb4b2fdfe7a	not-for-merge	tag 'v4.0.2' of https://github.com/opf/openproject-translations
+90f777da818cd74b599fbb6de063154a300c9e26	not-for-merge	tag 'v4.0.3' of https://github.com/opf/openproject-translations
+ab38f8bd0149a834bf258c0a50626cee6c34a0f6	not-for-merge	tag 'v4.0.4' of https://github.com/opf/openproject-translations
+b19b920e465fd2351624a11e612da4efc59a2bab	not-for-merge	tag 'v4.0.5' of https://github.com/opf/openproject-translations
+6fb1dc7b191df4bbe39f0b6d502b3208d6f161cf	not-for-merge	tag 'v4.0.6' of https://github.com/opf/openproject-translations
+df7b5ca180fea68d4de9da40c987a45754ac2dc6	not-for-merge	tag 'v4.0.7' of https://github.com/opf/openproject-translations
+9963a78aaaaa911b68286568971a00cc3a9078c0	not-for-merge	tag 'v4.0.8' of https://github.com/opf/openproject-translations
+62c1f09b7d9e0526222f873c0fa37c342d9dbf28	not-for-merge	tag 'v4.0.9' of https://github.com/opf/openproject-translations
+b4311c080b489017a9b27407464636b5c3cf55cc	not-for-merge	tag 'v4.1.0' of https://github.com/opf/openproject-translations
+58918e17f5e9b46321242ed9caf46e1a19e15418	not-for-merge	tag 'v4.1.0-beta' of https://github.com/opf/openproject-translations
+1c1a3ed36c4eb6150a4d8ccfde213dff80aa1182	not-for-merge	tag 'v4.1.1' of https://github.com/opf/openproject-translations
+714e60ff0ccc38dfdc66927177f782e634cf77b5	not-for-merge	tag 'v4.1.2' of https://github.com/opf/openproject-translations
+3fdf4f9d3c7f63bae9037dc1303e1211c7bca465	not-for-merge	tag 'v4.1.3' of https://github.com/opf/openproject-translations
+6627ecd5a9fd8eaaa1873e0a195aa66c49d4b23b	not-for-merge	tag 'v4.1.4' of https://github.com/opf/openproject-translations
+8146530618022b12341d0671c150155b2b6c833c	not-for-merge	tag 'v4.2.0' of https://github.com/opf/openproject-translations
+0d6672fcd12beb1577ee5e33905f2fa77cdc3def	not-for-merge	tag 'v4.2.1' of https://github.com/opf/openproject-translations
+250b3ed0eb93fe28711ddb68e54380e3389130ca	not-for-merge	tag 'v4.2.2' of https://github.com/opf/openproject-translations
+2fe889198db6d8181e4ac9336d447a37f6296d12	not-for-merge	tag 'v4.2.3' of https://github.com/opf/openproject-translations
+e1a622f5b29e15c5298b5c4c4c46cad747d87cbf	not-for-merge	tag 'v4.2.4' of https://github.com/opf/openproject-translations
+4d1c11082133e417d23af4376f433bccc3d2dad3	not-for-merge	tag 'v4.2.5' of https://github.com/opf/openproject-translations
+d0395b78986a1fa020d11c82191abce6113a9ee0	not-for-merge	tag 'v4.2.6' of https://github.com/opf/openproject-translations
+e83207b12839cb80d0b33cb627828aeae4ae0f4a	not-for-merge	tag 'v4.2.7' of https://github.com/opf/openproject-translations
+56e437b57cc9bbd7917cfb395c4f85731b5aa7ed	not-for-merge	tag 'v4.2.8' of https://github.com/opf/openproject-translations
+d0619f092d8c7c43f8165e84899e09100c7917ee	not-for-merge	tag 'v4.2.9' of https://github.com/opf/openproject-translations
+ed76ae8b480b811bec8f6145e916617b27495edb	not-for-merge	tag 'v5.0.0' of https://github.com/opf/openproject-translations
+ec1eeb5eaa8134d5cdb0a4a1e5a4863c5b874901	not-for-merge	tag 'v5.0.1' of https://github.com/opf/openproject-translations
+37fc7a0ee238c3dd37464028a956abb1e836572c	not-for-merge	tag 'v5.0.10' of https://github.com/opf/openproject-translations
+af582697e5732ce0c6e96d00e8d845ff95c8063b	not-for-merge	tag 'v5.0.11' of https://github.com/opf/openproject-translations
+aec738f30be3d688b3b9163fdf7300239e00d4b1	not-for-merge	tag 'v5.0.12' of https://github.com/opf/openproject-translations
+403d2c2f87387a49d1dadb1dbfe1cb4e88b6548c	not-for-merge	tag 'v5.0.13' of https://github.com/opf/openproject-translations
+9241f0940eb5ae2d3a38da904a5abb7298d73a47	not-for-merge	tag 'v5.0.14' of https://github.com/opf/openproject-translations
+089407397e309588a0a575f175f2665ffa1d2316	not-for-merge	tag 'v5.0.15' of https://github.com/opf/openproject-translations
+a3fe23e2f243e4ad7d8ae34aa738908b4c541011	not-for-merge	tag 'v5.0.16' of https://github.com/opf/openproject-translations
+0bd8946c4cb8994e3a4c1b9ebb3747763450d5f2	not-for-merge	tag 'v5.0.17' of https://github.com/opf/openproject-translations
+dc6a3dfb1359985d69d7f65623c6ada53fb70e7c	not-for-merge	tag 'v5.0.18' of https://github.com/opf/openproject-translations
+7790c0eebbe59e0f54617dec049c9aca49e7139c	not-for-merge	tag 'v5.0.19' of https://github.com/opf/openproject-translations
+e9cf95082721a836926c40eb96b275c4a9bee41f	not-for-merge	tag 'v5.0.2' of https://github.com/opf/openproject-translations
+e8875157ddf8166a4132a377ecd7990eee53397c	not-for-merge	tag 'v5.0.20' of https://github.com/opf/openproject-translations
+ce8dcfe1f54e42ae4c226ffe48d766d06e37f890	not-for-merge	tag 'v5.0.3' of https://github.com/opf/openproject-translations
+9c87aec9d0cd956a1cfaea2a4d7bbdbadd2997bf	not-for-merge	tag 'v5.0.4' of https://github.com/opf/openproject-translations
+ec3502e1f18542b6acb9558f0ba2fe801fe77e55	not-for-merge	tag 'v5.0.5' of https://github.com/opf/openproject-translations
+6015b52556f3072f0b2965eb3902f45c9a19085a	not-for-merge	tag 'v5.0.6' of https://github.com/opf/openproject-translations
+efd6cc8aefcd3692a173e735647c690c4863076d	not-for-merge	tag 'v5.0.7' of https://github.com/opf/openproject-translations
+093ad873d8e1dbb6dc9619a4a3d8bd63cec71697	not-for-merge	tag 'v5.0.8' of https://github.com/opf/openproject-translations
+87b499116bd30679916dda76609d22065e0970be	not-for-merge	tag 'v5.0.9' of https://github.com/opf/openproject-translations
+9a50ec05340896ea879ed8f2bf0a86e59462bc70	not-for-merge	tag 'v6.0.0' of https://github.com/opf/openproject-translations
+eacdb7c1312a9b4b969f0bb31124492970212de5	not-for-merge	tag 'v6.0.1' of https://github.com/opf/openproject-translations
+8f51476878ea149ce9d8a6c62a277f3707f480c8	not-for-merge	tag 'v6.0.2' of https://github.com/opf/openproject-translations
+2db23a9bd59de58e6d10e31d80596d798a6783b1	not-for-merge	tag 'v6.0.3' of https://github.com/opf/openproject-translations
+e19713a37e64af3d99d84ae901936958ec87de43	not-for-merge	tag 'v6.0.4' of https://github.com/opf/openproject-translations
+9821ade5d966ef12321618d5fe60c45d8c8573ba	not-for-merge	tag 'v6.0.5' of https://github.com/opf/openproject-translations
+ff2f6ec0179f9654567dea3096545ba2fc36ec70	not-for-merge	tag 'v6.1.0' of https://github.com/opf/openproject-translations
+7878216e683343ccccb54b4b6851eb09eb9e3147	not-for-merge	tag 'v6.1.1' of https://github.com/opf/openproject-translations
+495075444d0227625ea064907a629197e107b3e9	not-for-merge	tag 'v6.1.2' of https://github.com/opf/openproject-translations
+e29e893ad982a885f52bb6403a607d5c27721474	not-for-merge	tag 'v6.1.3' of https://github.com/opf/openproject-translations
+1e8c4e52119f0ea690bf7d015798ae65b1af0f7a	not-for-merge	tag 'v6.1.4' of https://github.com/opf/openproject-translations
+3490866ec6a7ab50a8dacb07e014984c6fecda14	not-for-merge	tag 'v6.1.5' of https://github.com/opf/openproject-translations
+0bc6dadb2b8da5f055140e9cb4c2d713d7f66c4d	not-for-merge	tag 'v7.0.0' of https://github.com/opf/openproject-translations
+b9cbb94cbd51764713b433b98278f4cc954570c5	not-for-merge	tag 'v7.0.1' of https://github.com/opf/openproject-translations
+e2ac6c6659ab40cff9a127b80bb8d39438153c55	not-for-merge	tag 'v7.0.2' of https://github.com/opf/openproject-translations
+5ce6b92a2e184f521fba05b8db1aabf2b61a553d	not-for-merge	tag 'v7.0.3' of https://github.com/opf/openproject-translations
+24f56befbcdecfa0350e881dd4e17bb4fe82005a	not-for-merge	tag 'v7.1.0' of https://github.com/opf/openproject-translations
+cc77898be143470f96b5fa2a94eb166b2e20379b	not-for-merge	tag 'v7.2.0' of https://github.com/opf/openproject-translations
+ca54b80a76cb5f6dff1d2bbb4a3c927326d23228	not-for-merge	tag 'v7.2.1' of https://github.com/opf/openproject-translations
+21ec9f71d2979909b427b94fb73ababbfff99e55	not-for-merge	tag 'v7.2.2' of https://github.com/opf/openproject-translations
+0eab9ccc05832aca5af142c59211df2abbee6833	not-for-merge	tag 'v7.2.3' of https://github.com/opf/openproject-translations
+4411886fc5c6fb4f9a5993c7e1e1dda9550c65b8	not-for-merge	tag 'v7.3.0' of https://github.com/opf/openproject-translations
+111f3c68b28cef39def19e5bf6e39acd636f2e84	not-for-merge	tag 'v7.3.1' of https://github.com/opf/openproject-translations
+175b5aef8eb275157e2a42ccf64f373a149b1a75	not-for-merge	tag 'v7.3.2' of https://github.com/opf/openproject-translations
+6ce2c62dbfe751aee9fa212fb1768784c42dea81	not-for-merge	tag 'v7.3.3' of https://github.com/opf/openproject-translations

@@ -1,0 +1,15 @@
+---
+addons:
+- heroku-postgresql
+config_vars:
+  LANG: en_US.UTF-8
+  RAILS_ENV: production
+  RACK_ENV: production
+  SECRET_KEY_BASE: 7fdc28813d080636329cb3a9eea6648c4ad20cc031cdeb33906cb1240a3c468c504aa0d66ebefb04ccdec828fe4fe35e2a9791badb81ef8ad9bba7cc6aea3da2
+  RAILS_SERVE_STATIC_FILES: enabled
+  RAILS_LOG_TO_STDOUT: enabled
+default_process_types:
+  rake: bundle exec rake
+  console: bin/rails console
+  web: bin/rails server -p ${PORT:-5000} -e $RAILS_ENV
+  worker: bundle exec rake jobs:work

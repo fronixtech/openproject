@@ -1,0 +1,16 @@
+current directory: /tmp/d20220503-59-13g6aae/opt/openproject/vendor/bundle/ruby/3.0.0/gems/unf_ext-0.0.8.1/ext/unf_ext
+/tmp/d20220503-59-13g6aae/opt/openproject/vendor/ruby-3.0.4/bin/ruby -I /tmp/d20220503-59-13g6aae/opt/openproject/vendor/ruby-3.0.4/lib/ruby/3.0.0 -r ./siteconf20220503-1560-zb04dp.rb extconf.rb
+checking for -lstdc++... yes
+creating Makefile
+
+current directory: /tmp/d20220503-59-13g6aae/opt/openproject/vendor/bundle/ruby/3.0.0/gems/unf_ext-0.0.8.1/ext/unf_ext
+make DESTDIR\= clean
+
+current directory: /tmp/d20220503-59-13g6aae/opt/openproject/vendor/bundle/ruby/3.0.0/gems/unf_ext-0.0.8.1/ext/unf_ext
+make DESTDIR\=
+compiling unf.cc
+linking shared-object unf_ext.so
+
+current directory: /tmp/d20220503-59-13g6aae/opt/openproject/vendor/bundle/ruby/3.0.0/gems/unf_ext-0.0.8.1/ext/unf_ext
+make DESTDIR\= install
+/usr/bin/install -c -m 0755 unf_ext.so ./.gem.20220503-1560-edcdxs

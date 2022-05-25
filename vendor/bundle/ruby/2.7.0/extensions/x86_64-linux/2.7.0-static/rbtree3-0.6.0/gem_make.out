@@ -1,0 +1,17 @@
+current directory: /tmp/d20211214-57-e03iy4/opt/openproject/vendor/bundle/ruby/2.7.0/gems/rbtree3-0.6.0
+/tmp/d20211214-57-e03iy4/opt/openproject/vendor/ruby-2.7.5/bin/ruby -I /tmp/d20211214-57-e03iy4/opt/openproject/vendor/ruby-2.7.5/lib/ruby/2.7.0 -r ./siteconf20211214-1514-1nf2qrb.rb extconf.rb
+checking for rb_exec_recursive() in ruby.h... yes
+creating Makefile
+
+current directory: /tmp/d20211214-57-e03iy4/opt/openproject/vendor/bundle/ruby/2.7.0/gems/rbtree3-0.6.0
+make "DESTDIR=" clean
+
+current directory: /tmp/d20211214-57-e03iy4/opt/openproject/vendor/bundle/ruby/2.7.0/gems/rbtree3-0.6.0
+make "DESTDIR="
+compiling dict.c
+compiling rbtree.c
+linking shared-object rbtree.so
+
+current directory: /tmp/d20211214-57-e03iy4/opt/openproject/vendor/bundle/ruby/2.7.0/gems/rbtree3-0.6.0
+make "DESTDIR=" install
+/usr/bin/install -c -m 0755 rbtree.so ./.gem.20211214-1514-1hnbztu
