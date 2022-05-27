@@ -81,7 +81,7 @@ OpenProject::Static::Homescreen.manage :links do |links|
     {
       label: :glossary,
       icon: 'icon-context icon-glossar',
-      url: link_hash[:glossary][:href]
+      url: link_hash[:glossary5][:href]
     },
     {
       label: :shortcuts,
