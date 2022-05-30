@@ -46,7 +46,7 @@ module Accounts::RedirectAfterLogin
 
   def default_redirect
     if url = OpenProject::Configuration.after_login_default_redirect_url
-      redirect_to url
+      redirect_to my_page_path
     else
       redirect_back_or_default my_page_path
     end
@@ -54,7 +54,7 @@ module Accounts::RedirectAfterLogin
 
   def first_login_redirect
     if url = OpenProject::Configuration.after_first_login_redirect_url
-      redirect_to url
+      redirect_to my_page_path
     else
       redirect_to home_url(first_time_user: true)
     end
