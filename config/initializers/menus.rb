@@ -393,7 +393,7 @@ Redmine::MenuManager.map :admin_menu do |menu|
             icon: 'icon2 icon-status'
 
   menu.push :enterprise,
-            { controller: '/enterprises', action: 'index' },
+            { controller: '/enterprises', action: :show },
             caption: :label_enterprise_edition,
             icon: 'icon2 icon-headset',
             if: proc { User.current.admin? && OpenProject::Configuration.ee_manager_visible? }
